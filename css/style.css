@@ -1,0 +1,112 @@
+
+/********** Header **************************************************************************************************/
+#Header + main{margin-top:124px;}
+#Header .user .fa-lg{font-size:12px; color:#04396c;} #Header .user {font-size:12px;} #Header a:hover .fa-lg{color:#fff;} #Header a:hover.text-white{color:#035b95 !important;}
+/********** Main Banner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:9;display:flex;justify-content:center;align-items:center;margin:auto;left:0;bottom:0px;right:0; top:0;}
+/********** About **************************************************************************************************/
+#About p{font-size:18px; letter-spacing:-.020em; line-height:1.4;} #About .my-100{margin-top:300px; margin-bottom:150px;} #About .about-img{position:relative;}
+#About .Block::after {border-top: solid 7px #c8c8c9;border-bottom: solid 7px #c8c8c9;border-left: solid 7px #c8c8c9;border-right: solid 7px #c8c8c9;content: '';position: absolute;left: 100px;top: 0px;right: 95px;z-index: -1;bottom: -30px;}
+#About .position-img {position: absolute;bottom: 100px;left: 30px;} #About .img-pos{position:relative;}
+#About .setText{font-size:800px; color:#f7f7f8; letter-spacing:-.020em; position:absolute; right:0; top:0; bottom:130px;left:310px; z-index: -1;}
+/**********Guide **************************************************************************************************/
+#Guide p{font-size:18px; letter-spacing:-.020em; color:#e9e9e9; line-height:1.2;} #Guide .position-img{position:relative; z-index: -1;} #Guide .position-txt{position:absolute;} #Guide .carousel-item{z-index:1 !important;}
+#Guide .carousel-indicators {z-index:9; bottom:0px; display:block; right:inherit; left:0; margin-right: 0px;margin-left: 0px; top:180px;}
+#Guide .carousel-indicators li {background-color:#fff; opacity:1;border-radius:50%; width:9px; height:9px; }  #Guide .mrgn{  margin-left: 120px;}
+#Guide .carousel-indicators .active {background-color:transparent !important;width:14px; height:14px; border:solid 1px #fff; margin-left:0px;}
+#Guide .pdng{display:flex;justify-content:center;bottom:0px; top:0; position:absolute; flex-direction:column;padding-left: 450px;padding-right: 180px;}
+#Guide .carousel-item .btn-primary{width:55%;} #Guide .my-100{margin-top:150px; margin-bottom:400px;} #Guide .carousel-inner {position: relative;top: 165px;left: -300px;width: 1070px; z-index: 1;}
+#Guide .Block::after {border-top: solid 7px #cddeea;border-bottom: solid 7px #cddeea;border-left: solid 7px #cddeea;border-right: solid 7px #cddeea;content: '';position: absolute;left: 135px;top: -40px;right: -135px;z-index: -1;bottom: 130px;} #Guide .img-position{position:relative; z-index:9;}
+/**********Blog **************************************************************************************************/
+#Blog .card {box-shadow: 0px 0px 15px rgba(0,0,0,.2);border: none !important;border-radius: 0px !important; margin-left: 10px;margin-right: 10px;} #Blog .card-title{font-size:24px; color:#000;} #Blog .card-text{font-size:15px; letter-spacing:-.020em;} #Blog .card a{color:#04396c; font-size:12px;}  #Blog .card a:hover{color:#393939;}  #Blog .card-body{padding: 45px 25px 30px 25px;} #Blog .text-position{position: absolute;bottom: -270px;} #Blog .mrgn{  margin-left: 120px;}
+
+/************************************************* Contact ********************************************************************/
+#Contact a{color:#000;}  #Contact a:hover{color:#035b95;}
+/********** Footer **************************************************************************************************/
+#Footer a{color:#fff !important;} #Footer a:hover{color:#035b95 !important;}
+#Footer{color:#fff; font-size:12px; line-height:2.4; font-weight:400;}
+#Footer .Home-links .list-inline-item:not(:last-child) {margin-right:34px;} #Footer .Home-links .list-inline-item :hover{color:#035b95;} #Footer .Home-links .list-inline-item{font-size:19px; letter-spacing:.040em;}
+#Footer .CopyText{color:#fff; font-size:12px;}  #Footer p{line-height:1.5; font-size:13px;} #Footer .fa-sm{font-size:12px; color:#04396c;}
+#Footer .SocialLink a{color:#fff; background:transparent; height:45px; width:45px; border:1px solid #fff; font-size:18px; text-align:center;  border-radius:50%; display:inline-block; letter-spacing:-.020em;} 
+#Footer .SocialLink a:hover{color:#035b95;border-color:#035b95;} #Footer .SocialLink .list-inline-item:not(:last-child) {margin-right:22px;}
+
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:1700px !important; padding-right:15px; padding-left:15px;margin-right: auto;margin-left: auto;}
+.container{max-width:1290px !important;}
+.container-fluid{max-width:1790px !important;}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#fff;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(255,255,255,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999;}
+.Logo img {max-height:79px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:60px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.Logo {padding-top:19px; padding-bottom:35px;}  .shrink .Logo {padding-top:20px !important; padding-bottom:20px !important;}
+.Homebnr .carousel-item img {
+    height: 757px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+
+}
+
+.gx-xxl-6 {margin-left:-10px!important;margin-right:-10px!important;}
+.gx-xxl-6 div[class^="col"]{padding-left:10px!important;padding-right:10px!important;}
+
+@media (min-width: 1920px) { #About .setText {left: 640px !important;}  #Guide .carousel-inner {width: 1250px !important;} #Guide .pdng {padding-left: 500px !important;padding-right: 310px !important;} #Guide .Block::after{bottom:180px !important;}
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1600px) { #About .setText {left: 350px;}  #Guide .carousel-inner {width: 1140px;} #Guide .pdng {padding-left: 500px;padding-right: 200px;}  #Guide .Block::after{bottom:150px;}
+
+}
+
+@media (min-width: 1459.98px) and (max-width: 1559.98px) {
+
+}
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {#About .setText {left: 80px;}  #Guide .mrgn {margin-left: 0px;} #Blog .mrgn {margin-left: 0px;}  #Blog .fs-400 {font-size: 340px !important;} #Blog .btn-primary{padding: 16px 50px;} #Guide .my-100 {margin-bottom: 250px;} #Guide .carousel-inner {width: 1020px;}  #Guide .pdng {padding-right: 130px;}
+}
+
+/*@include media-breakpoint-between(md, xl) { ... }*/
+@media (min-width: 991.98px) and (max-width: 1199.98px){#Header + main{margin-top:115px;} .MainBanner .carousel-caption .fs-120 {font-size: 70px !important;} #About .fs-72 {font-size: 50px !important;} #About .position-img {left: 0px;} #About .Block::after {left: 30px;} #About .my-100 {margin-top: 170px;margin-bottom: 100px;} #About .setText {left: 230px; bottom:550px; font-size: 400px;} #Guide .mrgn {margin-left: 0px;} #Blog .mrgn {margin-left: 0px;}  #Guide .fs-72 {font-size: 40px !important;} #Guide .my-100 {margin-top: 100px;margin-bottom: 100px;} #Blog .fs-400 {font-size: 250px !important;} #Blog .card-title {font-size: 20px;} #Blog .text-position {bottom: -190px;} #Blog .btn-primary{padding: 16px 25px;} #Footer .Home-links .list-inline-item:not(:last-child) {margin-right: 20px;} #Blog .card-body {padding: 30px 15px 20px 15px;} #Contact h1, .h1 {font-size: 30px;} #Guide .carousel-inner {width: 870px; top:50px;} #Guide .pdng {padding-right: 50px;} #Guide .carousel-item .btn-primary {width: 65%;} #Guide .carousel-indicators {top: 80px;}  #Guide .Block::after{bottom:100px;} }
+
+
+/*For example the @include media-breakpoint-only(md) { ... } will result in :*/
+@media (min-width: 768px) and (max-width: 991.98px) {#Header{position:static !important;}  #Header + main{margin-top:0px;}.Logo {padding-top:10px; padding-bottom:10px;} .MainBanner .carousel-caption .fs-120 {font-size: 50px !important;} #About .fs-72 {font-size: 40px !important;} #About .my-100 {margin-top: 40px;margin-bottom: 100px;} #About .img-pos {text-align: center; margin-top: 160px;} #About .setText {font-size: 700px;bottom: 230px;left: 280px;} #Guide .mrgn {margin-left: 0px;} #Blog .mrgn {margin-left: 0px;} #Guide .my-100 {margin-top: 100px;margin-bottom: 100px;} #About .Block::after {right: 250px;}#Guide p {font-size: 15px;} #About p {font-size: 15px;}  #Blog .text-position{position:static;} #Blog .fs-400 {font-size: 120px !important; line-height:0.6;} #Blog .card-title {font-size: 20px;} #Blog .card-body {padding: 30px 15px 20px 15px;} #Contact h1, .h1 {font-size: 30px;} #Footer .Home-links .list-inline-item:not(:last-child) {margin-right: 15px;}#Footer .Home-links .list-inline-item {font-size: 16px;letter-spacing: 0em;} #Guide .carousel-indicators{top:80px;} #Guide .carousel-inner {position: relative;top: 50px;left: -350px;width: 700px;} #Guide .Block::after {left: 40px;
+top: -40px;right: -60px;bottom: 80px;} #Guide .fs-72 {font-size: 26px !important;} #Guide .pdng {padding-left: 400px;padding-right: 15px;} #Guide .carousel-item .btn-primary {width: 85%;}
+}
+
+@media (max-width:767.98px) {#Header{position:static !important;}  #Header + main{margin-top:0px;}.Logo {padding-top:10px; padding-bottom:10px;} .MainBanner .carousel-caption .fs-120 {font-size: 30px !important;} .MainBanner .carousel-caption .fs-19 {font-size: 17px !important;} #About .fs-72 {font-size: 35px !important;} #About .my-100 {margin-top: 40px;margin-bottom: 80px;} #About .img-pos {text-align: center; margin-top: 160px;} #About .setText {font-size: 700px;bottom: 230px;left: 150px;} #About .Block::after {left: 50px;right: 200px;}  #Guide .mrgn {margin-left: 0px;} #Blog .mrgn {margin-left: 0px;}  #Guide p {font-size: 15px;} #About p {font-size: 15px;} #Guide .carousel-item .btn-primary {width: 46%;} #Blog .text-position{position:static;} #Blog .fs-400 {font-size: 100px !important; line-height:0.6;} #Blog .card-title {font-size: 20px;} #Blog .card-body {padding: 30px 15px 20px 15px;} #Contact h1, .h1 {font-size: 30px;} #Guide .position-img {position: static;} #Guide .img-position {width: 80%;display: block;margin-left: auto;
+margin-right: auto;} #Guide .Block::after {left: 50px;right: -40px;} #Guide .my-100 {margin-top: 80px; margin-bottom:50px;} #Guide .carousel-inner {position: static;width: 100%;} #Guide .pdng {padding-left: 50px;padding-right: 15px;} #Guide .carousel-indicators {margin-left: 15px;top: 60px;} #Guide .fs-72 {font-size: 40px !important;} #Footer .Home-links .list-inline-item:not(:last-child) {margin-right: 25px;}}
+
+@media (max-width:575.98px) {.Homebnr .carousel-item img {
+    height: 230px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	}
+	.MainBanner .carousel-indicators {bottom: 50px;margin-right: 5px;} #About .about-img {margin-left: 60px; width:75%;} #About .position-img {position: absolute;bottom: 50px;left: -50px;right: 50px;} #About .setText {font-size: 400px;bottom: 200px;left: 0px;} #About .Block::after {left: -30px;right: 50px;} #Guide .Block::after {left: 35px;top: -35px;right: -35px;bottom: 60px;} #Guide .position-img img{height: 370px;} #Guide .carousel-item .btn-primary {width: 100%;} #Footer .Home-links .list-inline-item:not(:last-child) {margin-right: 0px;} #Footer .Home-links .list-inline-item{display:block;}
+}
+/* X-Small devices (portrait phones, less than 576px) */

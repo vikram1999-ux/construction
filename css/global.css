@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Raleway:wght@600&display=swap');
+
+html {scroll-behavior:smooth;}
+body {background:#fff; color:#393939; font-family: 'Poppins', sans-serif; font-size:14px; font-weight:400; line-height:1.6;}
+
+.Bor:after {border-bottom:1px solid #00f0a1; content:"";display:block; margin:30px auto 35px auto; padding-bottom:0px; width:152px;}
+
+.font-raleway {font-family: 'Raleway', sans-serif;}
+.font-poppins {font-family: 'Poppins', sans-serif;}
+.font-bebas {font-family: 'Bebas Neue';}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+        url('../fonts/BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+	
+*, *:focus {outline:none !important; transition:all 0.3s ease 0s;}
+
+a {text-decoration:none !important; color:#393939;} a:hover{color:#035b95;}
+p{margin-bottom:20px;} .nomrgn{margin:0px !important;}
+
+.breadcrumb{color:#818181; margin:0px; background-color:transparent;padding:0 0 15px; font-size:12px; border-bottom:solid 1px #dddddd;}
+.breadcrumb>li+li:before{content:"\27A4";color:#818181; margin:0 10px;}
+.breadcrumb a{color:#487201;}
+
+/******* Helpers ********************************************************************/
+.ImgFade{background-color:#1d1d1d;}
+.ImgFade img{opacity: 0.5; filter: alpha(opacity=50); /* For IE8 and earlier */}
+
+hr{background-color:#383838; margin:10px 0px 6px 0px;}
+
+/***************************/
+.btn{moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;text-decoration:none !important; font-weight:600; font-size:11px; padding:16px 60px; font-family: 'Raleway', sans-serif; vertical-align:top; border-radius:0px; text-transform:uppercase; letter-spacing:.2em;}
+
+
+.btn-primary{border-color:#04396c; color:#fff !important;  background-color: #04396c; box-shadow: 4px 4px #0a6099, 8px 8px #6497b1;} 
+.btn-primary:hover,.btn-primary.focus,.btn-primary:focus{background-color: #035b95; border-color:#035b95;color:#fff !important; box-shadow: 4px 4px #0a6099, 8px 8px #6497b1;}
+
+.btn.btn-sm{padding: 16px 45px;}
+
+/*****************************/
+.fw-light{font-weight:300 !important;}
+.fw-normal{font-weight:400 !important;}
+.fw-medium{font-weight:500 !important;}
+.fw-semi{font-weight:600 !important;}
+
+.fs-12{font-size:12px !important;}
+.fs-15{font-size:15px !important;}
+.fs-19{font-size:19px !important;}
+.fs-72{font-size:72px !important;}
+.fs-120{font-size:120px !important;}
+.fs-400{font-size:400px !important;}
+
+
+.lh-1{line-height:1 !important;}
+.lh-8{line-height: 0.83 !important;}
+
+.ls-1{letter-spacing:.1em !important;}
+.ls-6{letter-spacing:.060em !important;}
+.ls-4{letter-spacing:-.040em !important;}
+.ls-2{letter-spacing:-.020em !important;}
+
+.bg-dark {background:#1d1d1d !important;}
+.bg-light {background:#ededed !important;}
+/*****************************/
+.text-dark {color:#000 !important;}
+.text-secondary {color:#4e4f51 !important;}
+.text-info {color:#2c90ce !important;}
+.text-light {color:#f3f2f3 !important;}
+.text-danger {color:#e7e7e7 !important;}
+/*****************************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {line-height:1;}
+h1, .h1 {font-size:35px;}
+h2, .h2 {font-size:40px;}
+h3, .h3 {font-size:28px;}
+h4, .h4 {font-size:16px;}
+h5, .h5 {font-size:12px;}
+
+/*******************************************************************/
+input.form-control,input.form-control:focus {font-size: 13px; height: calc(2.5em + 1.2rem + 2px); box-shadow:none;font-family: 'Source Sans Pro', sans-serif;}
+select.form-control {font-size:13px; height:calc(1.5em + 1.2rem + 2px);}
+textarea.form-control {font-size:13px; resize:none;}
+textarea.form-control:not([rows]) {height:136px;}
+.form-control::-moz-placeholder {color:#272727; opacity: 1;}
+
+/**************************************************************/
+.MainBanner .mask{position:absolute; top:0px; right:0%; left:0%; z-index:99; background:url(../images/bnr_shadow.png) repeat-x top; min-height:100%;}
+.MainBanner .carousel-indicators {z-index:99; bottom:30px; display:block; right:0; left:inherit; margin-right: 15px;margin-left: 0px;}
+.MainBanner .carousel-indicators li {background-color:#fff; opacity:1;border-radius:50%; width:11px; height:11px; } 
+.MainBanner .carousel-indicators .active {background-color:transparent !important;width:14px; height:14px; border:solid 1px #fff; margin-left:0px;}
+
+
+/****************************************************************/
+.Borderhd {line-height: 0.5;text-align: center;}
+.Borderhd span {display: inline-block;position: relative;  }
+.Borderhd span:before,.Borderhd span:after {content: "";position: absolute; border-bottom-color:#b8b8b8 !important; border-bottom:double; border-width:4px; top:8px;width:50%;}
+.Borderhd span:before {right: 100%;margin-right:45px;}
+.Borderhd span:after {left: 100%;margin-left:45px;}
+
+
+/***********************************************************************/
+ul.orange li {color: #3c3c3c;list-style: none;position: relative;}
+ul.orange li::before {color: #f69322; content: "\2022"; font-size:1.5em; position: absolute; top: -8px; left: -20px;}
+
+/********** Back To Top Button ***************************************************************************************************/
+#scroll {position:fixed; right:10px; bottom:10px; z-index:99999; cursor:pointer; width:45px; height:45px; text-align:center; line-height:43px; background:#035b95; color:#fff !important;}
+#scroll:hover {opacity:.7;}

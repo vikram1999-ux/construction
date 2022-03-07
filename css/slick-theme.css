@@ -1,0 +1,120 @@
+@charset 'UTF-8';
+
+.slick-loading .slick-list {
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+    .slick-prev:hover,
+    .slick-prev:focus,
+    .slick-next:hover,
+    .slick-next:focus {
+        color: transparent;
+        outline: none;
+        background:  #04396c;
+    }
+
+        .slick-prev:hover:before,
+        .slick-prev:focus:before,
+        .slick-next:hover:before,
+        .slick-next:focus:before {
+            opacity: 1;
+        }
+
+    .slick-prev.slick-disabled:before,
+    .slick-next.slick-disabled:before {
+        opacity: .25;
+    }
+
+.slick-prev {
+    left: 15px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    background: #b1b1b1;
+}
+
+    .slick-prev:before,
+    .slick-prev:after,
+    .slick-next:before,
+    .slick-next:after {
+        border-right: 2px solid #000;
+        border-bottom: 2px solid #000;
+        content: '';
+        position: absolute;
+        width: 12px;
+        height: 12px
+    }
+
+    .slick-prev:before,
+    .slick-prev:after {
+        transform: rotate(135deg);
+        left: 20px;
+        top: 20px;
+    }
+
+.slick-next {
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background: #b1b1b1;
+}
+
+    .slick-next:before,
+    .slick-next:after {
+        transform: rotate(-45deg);
+        right: 20px;
+        top: 20px;
+    }
+
+/**************************************************/
+
+.slick-slide {
+    position: relative;
+    padding: 0px;
+}
+
+    .slick-slide:not(.slick-active) {
+        opacity: 0.5;
+    }
+
+        .slick-slide:not(.slick-active):before {
+            position: absolute;
+            content: "";
+            display: block;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            height: 0%;
+            background: #fff;
+        }
+
+        .slick-slide:not(.slick-active):after {
+            position: absolute;
+            content: "";
+            display: block;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            height: 0%;
+            background: #fff;
+        }
